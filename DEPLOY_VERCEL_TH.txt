@@ -1,0 +1,14 @@
+คู่มือเผยแพร่ Logic Land ผ่าน Vercel
+
+1. แตกไฟล์ LogicLand_Vercel_Ready.zip
+2. เปิด https://github.com/new แล้วสร้าง repository เช่น logicland-game (เลือก Public หรือ Private)
+3. ใน repository เลือก Add file > Upload files แล้วอัปโหลดเนื้อหาทั้งหมดภายในโฟลเดอร์ที่แตก ZIP (ไม่ใช่อัปโหลด ZIP ทั้งก้อน) โดยต้องมี index.html อยู่ระดับบนสุด
+4. กด Commit changes
+5. เปิด https://vercel.com/new แล้วเข้าสู่ระบบ
+6. เลือก Import Git Repository แล้วเลือก repository ที่เพิ่งสร้าง
+7. Framework Preset: Other; Root Directory: ./; Build Command: เว้นว่าง; Output Directory: เว้นว่าง (ค่าเริ่มต้นสำหรับเว็บไซต์ static)
+8. กด Deploy และรอจนแสดงลิงก์ .vercel.app
+9. ทดสอบเปิดหน้าแรก เลือกตัวละคร เสียง ภาพ ด่าน และการเล่นบนโทรศัพท์
+
+หมายเหตุ: คะแนนที่เก็บในเบราว์เซอร์ไม่ได้เป็นฐานข้อมูลกลางสำหรับครู และอาจหายเมื่อผู้ใช้ล้างข้อมูลเว็บไซต์
+หากมีการแก้ไขเกม ให้อัปโหลดไฟล์ที่แก้ไปยัง repository เดิม Vercel จะ deploy ใหม่อัตโนมัติ
